@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 2fr));
+    gap: 16px;
+    margin: 0 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        margin: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gallery{
+        margin: 0 16px 0;
+        gap: 12px;
+    }   
+}

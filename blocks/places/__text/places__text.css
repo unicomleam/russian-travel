@@ -1,0 +1,10 @@
+.places__text {
+    max-width: 484px;
+}
+
+@media screen and (max-width: 320px) {
+    .places__text {
+        max-width: calc(100% - 16px*2);
+        margin: 0 auto;
+    }
+}

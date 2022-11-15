@@ -1,0 +1,14 @@
+.footer__box {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__box {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
