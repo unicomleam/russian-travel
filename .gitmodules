@@ -1,0 +1,3 @@
+[submodule "russian-travel"]
+    path = themes/vex-hugo
+    url = https://github.com/unicomleam/russian-travel.git
