@@ -32,7 +32,7 @@
         justify-items: center;
         grid-template-columns: minmax(min-content, max-content);
         grid-template-rows: repeat(4, minmax(min-content, max-content));
-        gap: 25px;
+        gap: 32px;
         grid-template-areas:
         "title"
         "website"
